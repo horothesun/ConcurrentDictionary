@@ -16,6 +16,12 @@ swift test
 
 ### Docker Linux
 
+IMPORTANT: regenerate Linux test list executing
+
+```bash
+swift test --generate-linuxmain
+```
+
 Execute on base `swift:5.2` image
 
 ```bash
