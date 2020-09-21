@@ -1,5 +1,8 @@
 # ConcurrentDictionary
 
+![CI Linux](https://github.com/horothesun/ConcurrentDictionary/workflows/CI%20Linux/badge.svg)
+![CI macOS](https://github.com/horothesun/ConcurrentDictionary/workflows/CI%20macOS/badge.svg)
+
 ## Generate Xcode project
 
 ```bash
