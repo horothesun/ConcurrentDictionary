@@ -2,6 +2,9 @@
 
 ![CI Linux](https://github.com/horothesun/ConcurrentDictionary/workflows/CI%20Linux/badge.svg)
 ![CI macOS](https://github.com/horothesun/ConcurrentDictionary/workflows/CI%20macOS/badge.svg)
+[![SwiftPM](https://img.shields.io/badge/SwiftPM-Compatible-brightgreen.svg)](https://swift.org/package-manager/)
+
+Thread-safe Swift dictionary.
 
 ## Generate Xcode project
 
