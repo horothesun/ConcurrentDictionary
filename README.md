@@ -1,7 +1,7 @@
 # ConcurrentDictionary
 
-![CI Linux](https://github.com/horothesun/ConcurrentDictionary/workflows/CI%20Linux/badge.svg)
-![CI macOS](https://github.com/horothesun/ConcurrentDictionary/workflows/CI%20macOS/badge.svg)
+[![CI Linux](https://github.com/horothesun/ConcurrentDictionary/workflows/CI%20Linux/badge.svg)](https://github.com/horothesun/ConcurrentDictionary/blob/master/.github/workflows/ci-linux.yml)
+[![CI macOS](https://github.com/horothesun/ConcurrentDictionary/workflows/CI%20macOS/badge.svg)](https://github.com/horothesun/ConcurrentDictionary/blob/master/.github/workflows/ci-macos.yml)
 [![SwiftPM](https://img.shields.io/badge/SwiftPM-Compatible-brightgreen.svg)](https://swift.org/package-manager/)
 
 Thread-safe Swift dictionary.
@@ -33,9 +33,9 @@ Execute on base `swift:5.2` image
 ```bash
 docker run --rm \
     --volume "$(pwd):/package" \
-    --workdir "/package" \
+    --workdir '/package' \
     swift:5.2 \
-    /bin/bash -c "swift test --build-path ./.build/linux"
+    /bin/bash -c 'swift test'
 ```
 
 or create a new image based on `Dockerfile` and run it
