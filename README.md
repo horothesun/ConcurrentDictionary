@@ -2,6 +2,7 @@
 
 [![CI Linux](https://github.com/horothesun/ConcurrentDictionary/workflows/CI%20Linux/badge.svg)](https://github.com/horothesun/ConcurrentDictionary/blob/master/.github/workflows/ci-linux.yml)
 [![CI macOS](https://github.com/horothesun/ConcurrentDictionary/workflows/CI%20macOS/badge.svg)](https://github.com/horothesun/ConcurrentDictionary/blob/master/.github/workflows/ci-macos.yml)
+[![codecov](https://codecov.io/gh/horothesun/ConcurrentDictionary/branch/master/graph/badge.svg?token=S9OQYJYHXJ)](https://codecov.io/gh/horothesun/ConcurrentDictionary)
 [![SwiftPM](https://img.shields.io/badge/SwiftPM-Compatible-brightgreen.svg)](https://swift.org/package-manager/)
 
 Thread-safe Swift dictionary.
